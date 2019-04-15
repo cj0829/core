@@ -1,0 +1,36 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.csr.core</groupId>
+    <artifactId>core-all</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <properties>
+        <!-- Maven插件 -->
+        <sourceEncoding>UTF-8</sourceEncoding>
+        <maven-compiler-plugin.source>1.7</maven-compiler-plugin.source>
+        <maven-compiler-plugin.target>1.7</maven-compiler-plugin.target>
+        <maven-compiler-plugin.version>3.1</maven-compiler-plugin.version>
+    </properties>
+
+    <modules>
+        <!--<module>xyi-web</module>-->
+        <module>core-base</module>
+        <module>core-common</module>
+        <module>core-persistence</module>
+        <module>core-security</module>
+    </modules>
+
+    <distributionManagement>
+        <repository>
+            <id>releases</id>
+            <name>Nexus Release Repository</name>
+            <url>http://39.106.65.160:10000/nexus/content/repositories/releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>Nexus Snapshot Repository</name>
+            <url>http://39.106.65.160:10000/nexus/content/repositories/snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
+</project>

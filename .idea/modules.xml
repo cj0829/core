@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/core-all.iml" filepath="$PROJECT_DIR$/core-all.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core-base/core-base.iml" filepath="$PROJECT_DIR$/core-base/core-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core-common/core-common.iml" filepath="$PROJECT_DIR$/core-common/core-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core-persistence/core-persistence.iml" filepath="$PROJECT_DIR$/core-persistence/core-persistence.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core-security/core-security.iml" filepath="$PROJECT_DIR$/core-security/core-security.iml" />
+    </modules>
+  </component>
+</project>

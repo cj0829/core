@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/core-base" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/core-common" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/core-persistence" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/core-security" vcs="svn" />
+  </component>
+</project>
